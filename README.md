@@ -18,7 +18,7 @@
 
 # MVP:
 1. Replicate look and feel of homepage
-2. Mobile
+2. Mobile - Add Bootstrap
 3. Welcome modal
 4. Users; Logged in
 5. Product
