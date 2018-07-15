@@ -1,6 +1,6 @@
 development:
   adapter: postgresql
-  database: parkbox_test
+  database: parkbox_dev
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
