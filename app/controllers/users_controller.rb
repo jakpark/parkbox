@@ -14,10 +14,10 @@ class UsersController < ApplicationController
   def create
     user = User.new(user_params)
     
-    if user.save!
+    if user.save
       render json: user
     else
-      redirect_to users_url
+      render json: user.errors.full_messages, status: :unprocessable_entity
     end
   end
   
