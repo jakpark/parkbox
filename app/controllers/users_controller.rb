@@ -2,7 +2,9 @@ class UsersController < ApplicationController
   skip_before_action :verify_authenticity_token # for API requests
   
   def index
-    render plain: 'View: users#index'
+    @users = User.all
+    
+    render json: @users
   end
   
   def show
@@ -10,6 +12,18 @@ class UsersController < ApplicationController
   end
   
   def create
-    render json: params
+    user = User.new(user_params)
+    
+    if user.save!
+      render json: user
+    else
+      redirect_to users_url
+    end
+  end
+  
+  private
+  
+  def user_params
+    params.require(:user).permit(:name, :email)
   end
 end
