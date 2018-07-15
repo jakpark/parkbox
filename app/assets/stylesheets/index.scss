@@ -1,5 +1,4 @@
 nav {
-  border-top: 1px solid grey;
   border-bottom: 1px solid grey;
   margin: 0 auto;
   padding: 20px 0;
@@ -34,4 +33,44 @@ nav {
     color: initial;
     background: darkgreen;
   }
+}
+
+main {
+  margin: 0 auto;
+  width: 1000px;
+  h1 {
+    font-size: 36px;
+  }
+  
+  #how_parkbox_works {
+    margin: 20px 0;
+    
+    .how_stories {
+      margin: 20px;
+      display: flex;
+    
+      p {
+        flex: 1;
+        border: 1px solid red;
+        min-width: 50px;
+      }
+      
+      .cta {
+        display: block;
+        
+        button {
+          background: lightgreen;
+          border-radius: 10px;
+          padding: 5px;
+        }
+      }
+    }
+  }
+}
+
+footer {
+  margin: 0 auto;
+  width: 1000px;
+  position: absolute;
+  bottom: 10px;
 }
