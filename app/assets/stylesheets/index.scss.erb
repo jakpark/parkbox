@@ -9,20 +9,35 @@ main {
   #hero {
     background-color: lightblue;
     
+    h2 {
+      font-size: 24px;
+      font-weight: bold;
+    }
+    
     .hero_container {
       background: url(asset-path('hero_pup.png'));
       background-size: contain;
       background-repeat: no-repeat;
       width: 100%;
-      height: 0;
-      padding-top: 66.64%;
+      height: 300px;
     }
     
     .button_cta {
       text-transform: capitalize;
       padding: 10px;
       background: lightgreen;
+      
+      margin: 10px;
+      width: 100px;
+      border-radius: 10px;
+      cursor: pointer;
+      
+      &.last {
+        background: cornflowerblue;
+      }
     }
+    
+    
   }
   
   #how_parkbox_works {
