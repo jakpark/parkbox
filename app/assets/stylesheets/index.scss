@@ -1,5 +1,13 @@
 nav {
   border: 1px solid red;
   margin: 0 auto;
+  width: 1000px;
   
+  ul.left, div {
+    float: left;
+  }
+  
+  ul.right {
+    float: right;
+  }
 }

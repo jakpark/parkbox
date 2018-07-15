@@ -44,3 +44,10 @@ button,
 input[type="submit"] {
   cursor: pointer;
 }
+
+// clearfix
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
