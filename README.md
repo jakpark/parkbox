@@ -1,13 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
+* Ruby 2.3.4
+* Rails 5.2.0
+* Postgres
 
 * Configuration
 
@@ -21,4 +16,17 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
+# MVP:
+1. Replicate look and feel of homepage
+2. Mobile
+3. Welcome modal
+4. Users; Logged in
+5. Product
+--- Extras
+6. Users: not logged in, store cookie
+7. User cart
+8. Navbar status
+
+Production:
+
+Deploy to Heroku
