@@ -1,5 +1,6 @@
 nav {
-  border: 1px solid grey;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
   margin: 0 auto;
   padding: 20px 0;
   width: 1000px;
@@ -8,9 +9,12 @@ nav {
   
   .logo {
     flex-grow: 2;
-    color: #3b5998;
     font-size: 24px;
     text-transform: capitalize;
+    
+    img {
+      max-width: 150px;
+    }
   }
   
   .button {
@@ -23,6 +27,11 @@ nav {
   }
   
   span:hover {
-    background: lightgrey;
+    color: cornflowerblue;
+  }
+  
+  .button:hover {
+    color: initial;
+    background: darkgreen;
   }
 }
