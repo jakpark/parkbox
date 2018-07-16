@@ -13,8 +13,9 @@
  *= require_self
  */
 
+@import "colors";
 @import "resets";
-@import "header";
+@import "navbar";
 @import "index";
 @import "index_mobile";
 @import "footer";
