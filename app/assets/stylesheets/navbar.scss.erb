@@ -2,21 +2,34 @@
 
 nav {
   margin: 0 auto;
-  padding: 10px 0;
+  padding: 0;
   width: 1000px;
   font-size: 14px;
-
+  height: 55px;
+ 
   display: flex;
   
   .logo {
     flex-grow: 2;
     font-size: 24px;
     text-transform: capitalize;
+    margin: 10px; 
     
     img {
       max-width: 150px;
       margin: 0 auto;
     }
+  }
+  
+  a {
+    flex-grow: 1;
+    cursor: pointer;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  a:hover {
+    color: cornflowerblue;
   }
   
   .button {
@@ -25,18 +38,10 @@ nav {
     color: white;
     font-weight: bold;
     text-align: center;
+    margin: 10px;
+    line-height: 2.5;
   }
-  
-  span {
-    flex-grow: 1;
-    cursor: pointer;
-    text-align: center;
-  }
-  
-  a:hover, span:hover {
-    color: cornflowerblue;
-  }
-  
+
   .button:hover {
     color: initial;
     background: darkgreen;
