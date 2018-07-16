@@ -1,22 +1,4 @@
-<nav class="clearfix">
-  <a href="#how_parkbox_works">
-    What is ParkBox?
-  </a>
-  <span>
-    Monthly Themes
-  </span>
-  <span class="logo">
-    <%= image_tag('parkbox-logo.png') %>
-  </span>
-  
-  <span>
-    Login
-  </span>
-  <span class='button'>
-    Get Started
-  </span>
-</nav>
-
+<%= render 'navbar' %>
 
 <main>
   <div class="wrapper">
@@ -63,9 +45,4 @@
   </section>
 </main>
 
-<div class="footerholder">
-  <footer>
-    Design © BarkBox 2018
-  </footer>
-</div>
-
+<%= render 'footer' %>
