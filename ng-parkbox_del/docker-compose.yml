@@ -1,0 +1,14 @@
+version: '3'
+services:
+  ng-parkbox:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ng-parkbox
+    networks:
+      - ng-parkbox
+    ports:
+      - '8080:80'
+networks:
+  ng-parkbox:
+    driver: bridge
