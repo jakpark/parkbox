@@ -43,7 +43,7 @@ export class HomeComponent implements OnInit {
     public title: Title,
     private http: HttpClient
   ) {
-    // http.get('http://localhost:3000/users.json').subscribe(res => this.users = res);
+    http.get('http://localhost:3000/users.json').subscribe(res => this.users = res);
   }
 
   public ngOnInit() {
