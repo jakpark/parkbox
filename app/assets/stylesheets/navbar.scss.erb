@@ -1,7 +1,10 @@
+@import "colors"; 
+
 nav {
   margin: 0 auto;
-  padding: 20px 0;
+  padding: 10px 0;
   width: 1000px;
+  font-size: 14px;
 
   display: flex;
   
@@ -12,11 +15,16 @@ nav {
     
     img {
       max-width: 150px;
+      margin: 0 auto;
     }
   }
   
   .button {
-    background: lightgreen;
+    background: $green;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
   }
   
   span {
@@ -25,7 +33,7 @@ nav {
     text-align: center;
   }
   
-  span:hover {
+  a:hover, span:hover {
     color: cornflowerblue;
   }
   
