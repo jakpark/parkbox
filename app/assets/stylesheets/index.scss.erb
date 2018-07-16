@@ -14,14 +14,27 @@ main {
   
   section {
     width: 1000px;
-    margin: 0 auto;
+    margin: 20px auto;
   }
   
   #hero {
+    display: flex;
+    
     h2 {
       font-size: 24px;
       font-weight: bold;
+      margin: 30px 10px;
     }
+    
+    .left {
+      max-width: 300px;
+      float: left;
+      
+      div {
+        margin: 20px auto;
+      }
+    }
+    
     
     .hero_container {
       background: url(asset-path('hero_pup.png'));
