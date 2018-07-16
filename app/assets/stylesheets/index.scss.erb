@@ -55,6 +55,8 @@ main {
     background: $green;
     color: white;
     font-weight: bold;
+    font-size: 14px;
+    text-align: center;
     
     
     margin: 10px;
@@ -62,8 +64,16 @@ main {
     border-radius: 10px;
     cursor: pointer;
     
+    &:hover {
+      background: darkgreen;
+    }
+    
     &.last {
       background: cornflowerblue;
+      
+      &:hover {
+        background: navy;
+      }
     }
   }
   
