@@ -15,6 +15,6 @@
 
 @import "resets";
 @import "header";
-@import "index_mobile";
 @import "index";
+@import "index_mobile";
 @import "footer";
