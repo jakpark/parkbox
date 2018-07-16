@@ -6,6 +6,7 @@ main {
   
   h1 {
     font-size: 36px;
+    text-align: center;
   }
   
   .wrapper {
@@ -31,7 +32,7 @@ main {
   }
   
   .left {
-    max-width: 300px;
+    max-width: 400px;
     flex: 1 0 40%;
     
     div {
@@ -90,13 +91,20 @@ main {
 
     .trio {
       flex: 1 0 33%;
-      border: 1px solid red;
       min-width: 50px;
+      text-align: center;
+      
+      img {
+        max-width: 200px;
+        margin: 0 auto;
+      }
     }
     
     .cta {
       flex: 0 1 100%;
       display: block;
+      margin: 10px;
+      text-align: center;
       
       a {
         background: $green;
@@ -104,7 +112,12 @@ main {
         padding: 5px;
         color: white;
         font-weight: bold;
-        margin: 10px;
+        margin: 20px auto;
+        display: block;
+        width: 200px;
+      }
+      .button {
+        text-align: center;
       }
     }
   }
