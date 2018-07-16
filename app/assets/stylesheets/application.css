@@ -13,7 +13,6 @@
  *= require_self
  */
 
-@import "colors";
 @import "resets";
 @import "navbar";
 @import "index";
