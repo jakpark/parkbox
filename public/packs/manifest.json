@@ -1,0 +1,4 @@
+{
+  "angular.js": "http://0.0.0.0:8080/packs/angular.js",
+  "application.js": "http://0.0.0.0:8080/packs/application.js"
+}
