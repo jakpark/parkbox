@@ -40,11 +40,8 @@ export class HomeComponent implements OnInit {
    */
   constructor(
     public appState: AppState,
-    public title: Title,
-    private http: HttpClient
-  ) {
-    http.get('http://localhost:3000/users.json').subscribe(res => this.users = res);
-  }
+    public title: Title
+  ) {}
 
   public ngOnInit() {
     console.log('hello `Home` component');

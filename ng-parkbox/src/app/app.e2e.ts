@@ -1,3 +1,4 @@
+import {} from 'jasmine';
 import { browser, by, element } from 'protractor';
 import 'tslib';
 
