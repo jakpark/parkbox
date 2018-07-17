@@ -17,16 +17,18 @@
 * Deployment instructions
 
 # MVP:
-1. Replicate look and feel of homepage
-2. Mobile - No Bootstrap!
-3. Welcome modal
-4. Users; Logged in
-5. Product
---- Extras
-6. Users: not logged in, store cookie
-7. User cart
-8. Navbar status
+1. Replicate look and feel of homepage ☑
+2. Mobile - No Bootstrap! ☑
+3. angular6 
+4. Welcome modal
+5. Users; Logged in
+6. Product
+
+# Extras
+7. Users: not logged in, store cookie
+8. User cart
+9. Navbar status
 
 Production:
 
-Deploy to Heroku
+☑ Deploy to Heroku
