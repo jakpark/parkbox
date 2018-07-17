@@ -6,6 +6,12 @@
 
 * Configuration
 
+Commands to run:
+yarn
+
+# Error: Chunk.entrypoints
+npm install -D extract-text-webpack-plugin@next
+
 * Database creation
 
 * Database initialization

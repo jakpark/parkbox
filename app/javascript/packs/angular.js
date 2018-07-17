@@ -1,9 +1,9 @@
 // Run this Angular example by adding the following HTML markup to your view:
 //
-// <ng_app>Loading...</ng_app>
+// <angular>Loading...</angular>
 //
-// <%= javascript_pack_tag 'ng_app' %>
+// <%= javascript_pack_tag 'angular' %>
 
-require('../ng_app')
+require('../angular')
 
 console.log('Hello World from Angular')
