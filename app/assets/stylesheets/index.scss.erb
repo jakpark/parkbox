@@ -51,35 +51,34 @@ main {
     height: 300px;
   }
   
-  .button_cta {
-    text-transform: uppercase;
-    padding: 10px;
-    background: $green;
-    color: white;
-    font-weight: bold;
-    font-size: 14px;
-    text-align: center;
-    
-    
-    margin: 10px;
-    width: 200px;
-    border-radius: 2spx;
-    cursor: pointer;
-    
-    &:hover {
-      background: darkgreen;
-    }
-    
-    &.last {
-      background: $cta_blue;
+  .btn{
+    &.cta {
+      text-transform: uppercase;
+      padding: 10px;
+      background: $green;
+      color: white;
+      font-weight: bold;
+      font-size: 14px;
+      text-align: center;
+      margin: 20px auto;
+      
+      width: 200px;
+      border-radius: 2spx;
+      cursor: pointer;
       
       &:hover {
-        background: navy;
+        background: darkgreen;
+      }
+      
+      &.last {
+        background: $cta_blue;
+        
+        &:hover {
+          background: navy;
+        }
       }
     }
   }
-  
-  
 }
   
 .flex_container {
