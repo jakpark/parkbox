@@ -19,9 +19,9 @@
 # MVP:
 1. Replicate look and feel of homepage ☑
 2. Mobile - No Bootstrap! ☑
-3. angular6 
+3. angular6 ☑
 4. Welcome modal
-5. Users; Logged in
+5. image gallery (carousel?)
 6. Product
 
 # Extras
