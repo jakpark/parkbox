@@ -1,14 +1,18 @@
 <div class="nav-wrapper">
   <div id="navbar">
     <nav class="clearfix" >
-      <a href="#how_parkbox_works" class="small">
+      <a href="#how_parkbox_works" class="mobile-hidden">
         Why Park?
       </a>
+      <a class="desktop-hidden mobile-visible btn-nav">
+        <%= image_tag('icon_burger.png', class:"icon") %>
+      </a>
+      
       <a class="logo">
         <%= image_tag('parkbox-logo.png') %>
       </a>
       
-      <a href="#about">
+      <a href="#about" class="mobile-hidden">
         About
       </a>
       <a class='button'>
