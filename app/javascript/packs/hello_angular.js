@@ -5,3 +5,5 @@
 // <%= javascript_pack_tag 'hello_angular' %>
 
 require('../hello_angular')
+
+console.log('Hello World from Angular')
