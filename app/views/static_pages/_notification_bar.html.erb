@@ -1,0 +1,24 @@
+<div id="notification_bar" class="clearfix">
+  <div class="toggleNoty">
+    X
+  </div>
+  
+  <div class="notification">
+    TIME TO MEET: ZERO DAYS LEFT!
+  </div>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function(event){
+    console.log('notification_bar')
+    
+    var target = document.getElementById("notification_bar");
+    var btnToggle = document.getElementsByClassName("toggleNoty")[0];
+    
+    btnToggle.addEventListener("click", function(){
+      console.log('toggled');
+      target.classList.add('hidden');
+    })
+  });
+  
+</script>
