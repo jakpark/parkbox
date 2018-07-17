@@ -17,6 +17,8 @@ main {
   section {
     width: 1000px;
     margin: 20px auto;
+    
+    font-size: 20px;
   }
 }
 
@@ -79,50 +81,62 @@ main {
   
   
 }
-
-#how_parkbox_works {
   
-  .how_stories {
-    margin: 20px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+.flex_container {
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 
-    .trio {
-      flex: 1 0 33%;
-      min-width: 50px;
+  .trio {
+    flex: 1 0 33%;
+    min-width: 50px;
+    text-align: center;
+    
+    img {
+      max-width: 200px;
+      margin: 0 auto;
+    }
+  }
+  
+  .cta {
+    flex: 0 1 100%;
+    display: block;
+    margin: 10px;
+    text-align: center;
+    
+    a {
+      background: $green;
+      border-radius: 10px;
+      padding: 5px;
+      color: white;
+      font-weight: bold;
+      margin: 20px auto;
+      display: block;
+      width: 200px;
+    }
+    .button {
       text-align: center;
       
-      img {
-        max-width: 200px;
-        margin: 0 auto;
+      a:hover {
+        background: darkgreen;
       }
     }
     
-    .cta {
-      flex: 0 1 100%;
-      display: block;
-      margin: 10px;
-      text-align: center;
-      
-      a {
-        background: $green;
-        border-radius: 10px;
-        padding: 5px;
-        color: white;
-        font-weight: bold;
-        margin: 20px auto;
-        display: block;
-        width: 200px;
-      }
-      .button {
-        text-align: center;
-        
-        a:hover {
-          background: darkgreen;
-        }
-      }
-      
-    }
+  }
+}
+
+#about {
+  .img_holder {
+    width: 200px;
+    flex: 1;
+  }
+  
+  .content {
+    flex: 1;
+  }
+  
+  p {
+    margin:10px;
   }
 }
